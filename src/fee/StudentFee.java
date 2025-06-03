@@ -450,7 +450,7 @@ eg :        roll no    --   4   status -> done   ... these records came from stu
     }//GEN-LAST:event_t5ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
+dispose();          // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
 
     

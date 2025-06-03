@@ -560,6 +560,7 @@ public class sb
 
     private void exitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitBtnActionPerformed
         // TODO add your handling code here:
+        dispose();
     }//GEN-LAST:event_exitBtnActionPerformed
 
     private void utiBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_utiBtnActionPerformed
@@ -569,6 +570,7 @@ public class sb
 
     private void abtBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_abtBtnActionPerformed
         // TODO add your handling code here:
+        new AboutUs().setVisible(true);
     }//GEN-LAST:event_abtBtnActionPerformed
 
     private void eveBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eveBtnActionPerformed

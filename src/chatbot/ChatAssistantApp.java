@@ -1,5 +1,6 @@
 package chatbot;
 
+import dashboard.DashBoard1;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -59,7 +60,7 @@ public class ChatAssistantApp extends JFrame {
         add(topPanel, BorderLayout.NORTH);
         add(scrollPane, BorderLayout.CENTER);
         add(inputPanel, BorderLayout.SOUTH);
-
+   
         setVisible(true);
     }
 
@@ -138,6 +139,7 @@ public class ChatAssistantApp extends JFrame {
             JOptionPane.showMessageDialog(null, "Message cannot be empty!");
         }
     }
-
+   
+   
    
 }
